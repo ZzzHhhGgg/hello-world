@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小米官网</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	li{
+		list-style: none;
+	}
+	.body{
+		width: 1226px;
+		height: 614px;
+		margin: 15px auto;
+		background-color: #f5f5f5;
+	}
+	.left{
+		width: 234px;
+		height: 614px;
+		float: left;
+		background-color: pink;
+	}
+	.left img {
+		width: 234px;
+		height: 614px;
+	}
+	.right{
+		width: 992px;
+		height: 614px;
+		float: right;
+	}
+	.right li{
+		width: 234px;
+		height: 260px;
+		float: left;
+		margin-left: 14px;
+		margin-bottom: 14px;
+		background-color: #fff;
+		padding: 20px 0;
+	}
+	.right li a {
+		text-decoration: none;
+	}
+	.right li:hover{
+		box-shadow: 2px 2px 2px 3px #ccc;
+	}
+	.right .images{
+		/*width: 160px;
+		height: 160px;*/
+		margin: 0 37px;
+		background-color: pink;
+	}
+	.right .images img, .right .images{
+		width: 160px;
+		height: 160px;
+	}
+	.right .title{
+		height: 30px;
+		line-height: 30px;
+		margin: 0 10px 2px;
+		font-size: 12px;
+		text-align: center;
+		color: #333;
+	}
+	.right .desc{
+		height: 18px;
+		line-height: 18px;
+		margin: 0 10px 10px;
+		font-size: 14px;
+		text-align: center;
+		color: #0b0b0b;
+	}
+	.right .price{
+		height: 30px;
+		margin: 0 10px 14px;
+		font-size: 14px;
+		text-align: center;
+		color: #ff6700;
+	}
+    </style>
+</head>
+<body>
+	<!-- 大盒子包裹两个左右盒子 -->
+	<div class="body">
+		<!-- 做盒子浮动 -->
+		<div class="left">
+			<a href="#"><img src="../../200425/imgaes/xiaomi_left.webp" alt=""></a>
+		</div>
+		<!-- 右盒子浮动 -->
+		<ul class="right">
+			<li><a href="" class="">
+				<div class="images"><img src="../../200425/imgaes/xiaomi_right1.webp" alt=""></div>
+				<h2 class="title">小米10 青春版 5G</h2>
+				<p class="desc">50倍浅望变焦/轻薄5G手机</p>
+				<p class="price">2099元起</p>
+			</a></li>
+			<li><a href="#">
+				<div class="images"><img src="../../200425/imgaes/xiaomi_right2.webp" alt=""></div>
+				<h2 class="title">小米10 青春版 5G</h2>
+				<p class="desc">50倍浅望变焦/轻薄5G手机</p>
+				<p class="price">3999元起</p>
+			</a></li>
+			<li><a href="#">
+				<div class="images"><img src="../../200425/imgaes/xiaomi_right3.webp" alt=""></div>
+				<h2 class="title">小米10 青春版 5G</h2>
+				<p class="desc">50倍浅望变焦/轻薄5G手机</p>
+				<p class="price">2799元起</p>
+			</a></li>
+			<li><a href="#">
+				<div class="images"><img src="../../200425/imgaes/xiaomi_right4.webp" alt=""></div>
+				<h2 class="title">小米10 青春版 5G</h2>
+				<p class="desc">50倍浅望变焦/轻薄5G手机</p>
+				<p class="price">3799元起</p>
+			</a></li>
+			<li><a href="#">
+				<div class="images"><img src="../../200425/imgaes/xiaomi_right5.webp" alt=""></div>
+				<h2 class="title">小米10 青春版 5G</h2>
+				<p class="desc">50倍浅望变焦/轻薄5G手机</p>
+				<p class="price">4099元起</p>
+			</a></li>
+			<li><a href="#">
+				<div class="images"><img src="../../200425/imgaes/xiaomi_right6.webp" alt=""></div>
+				<h2 class="title">小米10 青春版 5G</h2>
+				<p class="desc">50倍浅望变焦/轻薄5G手机</p>
+				<p class="price">1599元起</p>
+			</a></li>
+			<li><a href="#">
+				<div class="images"><img src="../../200425/imgaes/xiaomi_right7.webp" alt=""></div>
+				<h2 class="title">小米10 青春版 5G</h2>
+				<p class="desc">50倍浅望变焦/轻薄5G手机</p>
+				<p class="price">1999元起</p>
+			</a></li>
+			<li><a href="#">
+				<div class="images"><img src="../../200425/imgaes/xiaomi_right8.webp" alt=""></div>
+				<h2 class="title">小米10 青春版 5G</h2>
+				<p class="desc">50倍浅望变焦/轻薄5G手机</p>
+				<p class="price">699元起</p>
+			</a></li>
+		</ul>
+	</div>
+</body>
+</html>
